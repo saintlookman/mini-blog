@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: gold;
+    margin: 20px 0px;
+}
+
+.wrapper{
+    width:800px;
+    margin: 20px auto; 
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+header{
+    padding:20px;
+    overflow: hidden;
+}
+
+header > #logo {
+    float: left;
+}
+
+.logoimg{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    margin-top: 30px;
+    float: right;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration : none ;
+    background-color: black; 
+    color: whitesmoke;
+    text-align: center;
+    margin: 2px;
+
+}
+
+.caption img {
+    width: 100%;
+}
+
+main{
+    padding: 20px;
+    overflow: hidden;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+
+article{
+    padding: 20px 0px;
+    border-bottom: 1px solid grey;
+}
+
+article p{
+    padding: 20px 0px 20px 0px;
+}
+
+article:last-child{
+    border-bottom: none;
+}
+
+aside{
+    width: 30%;
+    height: 150px;
+    float: right;
+    background-color: gold;
+    padding: 20px;
+
+}
+
+h3{
+    background-color:orangered;
+    color: #fff;
+    padding: 10px;
+}
+
+aside > ul > li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+    
+}
+
+aside a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 8px;
+    margin: 4
+
+}
+
+aside a:hover{
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+}
+
+
+.back2top{
+    border: 1px solid grey;
+    background-color: red;
+    float: right;
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px 2px grey;
+    bottom: 25px;
+    right:318px;
+    position: fixed;
+
+}
+
+.back2top {
+
+}
+
+footer{
+    background-color: orangered;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer p{
+    text-align: center;
+    padding: 30px;
+    border-top: 1 px solid grey;
+    color: whitesmoke;
+}
